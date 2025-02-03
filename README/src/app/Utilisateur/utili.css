@@ -1,0 +1,119 @@
+/* Conteneur principal */
+.profile-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Titres */
+  h2, h3 {
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  /* Informations utilisateur */
+  .user-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #f8f8f8;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .user-info label {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+  }
+  
+  .user-info input {
+    width: 60%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .user-info input:disabled {
+    background: #e0e0e0;
+    cursor: not-allowed;
+  }
+  
+  /* Boutons */
+  .edit-button, .save-button {
+    background: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
+  .save-button {
+    background: #28a745;
+  }
+  
+  .edit-button:hover {
+    background: #0056b3;
+  }
+  
+  .save-button:hover {
+    background: #218838;
+  }
+  
+  /* Liste des cours */
+  .courses {
+    text-align: left;
+  }
+  
+  .courses h3 {
+    margin-top: 20px;
+    color: #555;
+  }
+  
+  .courses ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .courses li {
+    background: #eef2f3;
+    padding: 12px;
+    margin: 5px 0;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+  }
+  
+  .courses li strong {
+    color: #222;
+  }
+  
+  /* Responsive */
+  @media (max-width: 600px) {
+    .profile-container {
+      width: 90%;
+      padding: 15px;
+    }
+  
+    .courses li {
+      font-size: 14px;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+  

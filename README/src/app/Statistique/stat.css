@@ -1,0 +1,83 @@
+/* Conteneur principal */
+.dashboard-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Titre */
+  h2 {
+    color: #333;
+    font-weight: bold;
+  }
+  
+  /* Statistiques principales */
+  .stats {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+  }
+  
+  .stat-box {
+    background: #f8f8f8;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+  }
+  
+  .stat-box h3 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .stat-box p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  /* Graphiques */
+  .charts {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  
+  .chart {
+    width: 45%;
+  }
+  
+  /* Classement des mentors */
+  .leaderboard {
+    margin-top: 30px;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .stats {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .stat-box {
+      width: 80%;
+      margin-bottom: 10px;
+    }
+  
+    .charts {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .chart {
+      width: 90%;
+      margin-bottom: 20px;
+    }
+  }
+  

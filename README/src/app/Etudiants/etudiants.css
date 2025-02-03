@@ -1,0 +1,46 @@
+/* Conteneur principal */
+.etudiants-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+.etudiants-container h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Liste des étudiants */
+.etudiants-list {
+    list-style: none;
+    padding: 0;
+    max-width: 600px;
+    width: 100%;
+}
+
+.etudiant-item {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.etudiant-item p {
+    margin: 5px 0;
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Message d'erreur */
+.error-message {
+    color: #e74c3c;
+    font-size: 1rem;
+    margin-top: 10px;
+}

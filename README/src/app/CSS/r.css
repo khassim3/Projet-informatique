@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  h1,
+  h2 {
+    color: #333;
+  }
+  
+  .nav-logo-container img {
+    width: 150px;
+  }
+  
+  .navbar-links-container a,
+  .navbar-links-container button {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .navbar-links-container .primary-button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .navbar-links-container .primary-button:hover {
+    background-color: green;
+  }
+  
+  .navbar-menu-container {
+    display: none;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-menu-container {
+      display: block;
+    }
+  
+    .navbar-links-container {
+      display: none;
+    }
+  }
+  
+  .navbar-menu-container svg {
+    cursor: pointer;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: green;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  form div {
+    margin: 10px 0;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  form input {
+    padding: 10px;
+    width: 300px;
+    max-width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .container {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Media query pour les écrans de petite taille */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .navbar-links-container {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      align-items: flex-start;
+      margin-top: 10px;
+  
+    }
+  
+    .nav-button {
+      width: 100%;
+      text-align: left;
+      margin: 5px 0;
+  
+    }
+  }

@@ -1,0 +1,41 @@
+/* Conteneur principal */
+.dashboard-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Titres */
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    font-size: 20px;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  /* Section */
+  .section {
+    margin-bottom: 30px;
+  }
+  
+  /* Listes */
+  .list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .student-card, .mentor-card {
+    background: #f8f9fa;
+    padding: 15px;
+    margin: 10px auto;
+}  

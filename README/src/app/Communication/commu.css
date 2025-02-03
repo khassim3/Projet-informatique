@@ -1,0 +1,134 @@
+.chat-container {
+    display: flex;
+    height: 100vh;
+    background-color: #f4f4f9;
+  }
+  
+  .sidebar {
+    width: 25%;
+    background: white;
+    padding: 15px;
+    border-right: 1px solid #ddd;
+    overflow-y: auto;
+  }
+  
+  .sidebar h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .conversation-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .conversation-item {
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    background: #e9ecef;
+    margin-bottom: 8px;
+  }
+  
+  .conversation-item:hover {
+    background: #d6d6d6;
+  }
+  
+  .active-conversation {
+    background: #007bff;
+    color: white;
+  }
+  
+  .chat-section {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .chat-header {
+    padding: 15px;
+    background: white;
+    border-bottom: 1px solid #ddd;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .chat-messages {
+    flex: 1;
+    padding: 15px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .message {
+    max-width: 60%;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  .message.sent {
+    align-self: flex-end;
+    background: green;
+    color: white;
+  }
+  
+  .message.received {
+    align-self: flex-start;
+    background: #e9ecef;
+  }
+  
+  .chat-input {
+    display: flex;
+    padding: 10px;
+    background: white;
+    border-top: 1px solid #ddd;
+  }
+  
+  .chat-input input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+  }
+  
+  .chat-input button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .chat-input button:hover {
+    background-color: green;
+  }
+  
+  .attachment-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  .notification {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: green;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 50%;
+    font-size: 12px;
+    display: none;
+  }
+  
+  .notification.active {
+    display: block;
+  }
+  
